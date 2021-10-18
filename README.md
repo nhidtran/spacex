@@ -6,19 +6,6 @@ You should use the launch data that is attached as spacex_launches.json. The dat
 
 If you have time, add additional fields and queries to your graphQL server based off of the data in spacex_launches.json and add relevant testing and logging to your working server.
 
-## Sample Scaffold
-
-You can implement this GraphQL server using whatever framework or programming language you would like. However, we do include a bare bones javascript file that utilizes [Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started/) and nodeJS for the assignment only for convenience. Note, to use this scaffolding, you will need to issue `npm install` inside of the folder.
-
-If you would prefer to use an online IDE, there is a pre-made Apollo Server scaffold available - https://codesandbox.io/s/apollo-server-apollo-server
-
-## What's provided
-
-- This README file
-- spacex_launches.json - raw data that should be queried
-- index.js - a graphQL server scaffolding implemented using Apollo Server
-- package.json - node modules needed to create a GraphQL Apollo Server
-
 ## GraphQL
 
 Explanation and code samples can be found https://graphql.org/code/
@@ -57,17 +44,3 @@ The section below is pasted from spacex_launches.json for the first launch. The 
   },
 ];
 ```
-
-## Delivery medium
-
-Please include directions on how to run your software. Your code can be submitted in any of the following ways:
-
-a) URL to a sandbox on https://codesandbox.io,
-
-b) URL to a remote git repository (e.g. GitHub or GitLab),
-
-c) ZIP archive with source files
-
-## Time limit
-
-Spend at most approximately three hours on this task. Your submissions will be evaluated on the quality of the graphQL schema, how understandable your code is, and if your server runs. Completed, production code is not required.
