@@ -1,5 +1,3 @@
-# Cloud Application Engineer Challenge
-
 ## Challenge
 
 Using your favorite language, implement a GraphQL server that would allow a UI developer to query SpaceX's launch data. The UI Developer will be most interested in querying the mission name, launch date, and the norad ids of the payloads on board the rocket. The focus of this assignment is assessing how you create a useful graphQL schema against the data and how understandable your code is.
